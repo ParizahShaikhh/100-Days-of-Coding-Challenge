@@ -1,5 +1,7 @@
+"use strict";
 // Question 143:
 // Show how to use the .then() and .catch() methods to handle Promise resolution and rejection.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: The .then() method is called when a Promise is successfully resolved, while .catch() is called when a Promise is rejected. Together, they provide a powerful and readable way to handle asynchronous success and error scenarios.
 // Answer:
 const promise = new Promise((resolve, reject) => {
@@ -17,4 +19,3 @@ promise.then((result) => {
 promise.catch((error) => {
     console.log(error.message);
 });
-export {};

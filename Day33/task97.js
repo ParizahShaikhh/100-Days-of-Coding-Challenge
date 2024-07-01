@@ -1,5 +1,7 @@
+"use strict";
 // Question 97:
 // Write a function that returns the current date in the format "DD-MM-YYYY".
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: Working with dates in JavaScript often requires formatting them in a specific way. The Date object provides methods to get the day, month, and year, which you can then assemble into any format you need.
 // Answer:
 // Define a function to return the current date in the format "DD-MM-YYYY"
@@ -15,4 +17,3 @@ function getCurrentDate() {
 }
 // Call the function and print the result
 console.log(getCurrentDate());
-export {};

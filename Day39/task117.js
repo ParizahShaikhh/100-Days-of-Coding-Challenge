@@ -1,5 +1,7 @@
+"use strict";
 // Question 117:
 // Implement a switch statement that evaluates an expression and uses the default case if none of the cases match.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: The default case in a switch statement provides a way to execute a block of code when none of the other case labels match the expression's value.
 // Answer:
 // Implement a switch statement that evaluates an expression and uses the default case if none of the cases match.
@@ -28,4 +30,3 @@ evaluateExpression("-");
 evaluateExpression("*");
 evaluateExpression("/");
 evaluateExpression(",");
-export {};

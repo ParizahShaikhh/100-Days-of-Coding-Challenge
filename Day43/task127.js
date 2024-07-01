@@ -1,5 +1,7 @@
+"use strict";
 // Question 127:
 // Convert a traditional function expression to an arrow function.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: Arrow functions provide a concise syntax for writing function expressions. They don't have their own bindings to this or super, and should not be used as methods.
 // Answer:
 // Define a traditional function expression
@@ -12,5 +14,4 @@ const arrowFunc = (a, b) => {
 };
 console.log(add(6, 3));
 console.log(arrowFunc(7, 8));
-export {};
 // Output: 9 / 15

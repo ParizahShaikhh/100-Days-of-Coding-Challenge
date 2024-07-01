@@ -1,6 +1,8 @@
+"use strict";
 // Question No.11:
 // Names: Store the names of a few of your friends in a array called names.
 // Print each person’s name by accessing each element in the list, one at a time.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Answer:
 // Store names of friends in an array
 let friends = ["Arish", "Aries", "Parizah shaikh", "Hunaina"];
@@ -8,4 +10,3 @@ let friends = ["Arish", "Aries", "Parizah shaikh", "Hunaina"];
 friends.forEach(name => {
     console.log(name);
 });
-export {};

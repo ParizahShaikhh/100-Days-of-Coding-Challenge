@@ -1,5 +1,7 @@
+"use strict";
 // Question 56:
 // Keep Only Strings: Given a mix of different types of items, make a new list that has only the words.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Answer:
 // Define an empty array to hold the words.
 let wordsArray = [];
@@ -13,4 +15,3 @@ for (let item of mixedArray) {
     }
 }
 console.log(wordsArray);
-export {};

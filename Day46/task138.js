@@ -1,5 +1,7 @@
+"use strict";
 // Question 138:
 // Describe how to use breakpoints in browser developer tools to debug JavaScript code.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: Breakpoints are a powerful feature in browser developer tools that allow you to pause the execution of your JavaScript code at a specific line. This gives you an opportunity to inspect variables, step through code one line at a time, and understand how your code executes in real-time.
 // Answer:
 // 1. Open the browser developer tools.
@@ -13,4 +15,3 @@
 console.log("Before BreakPoint");
 console.log("This line has a breakpoint on it in the browser's developer tools");
 console.log("After BreakPoint");
-export {};

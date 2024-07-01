@@ -1,5 +1,7 @@
+"use strict";
 // Question 50: Multiline Template Literals: Use template literals to create a multiline
 // string that describes your ideal day. Include at least three different activities.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Answer:
 // Define a multiline string using template literals
 let idealDayDescription = `
@@ -13,4 +15,3 @@ Finally, I would end the day with a cozy dinner with family,
 sharing laughter and creating lasting memories together.`;
 // Log the multiline string
 console.log(idealDayDescription);
-export {};

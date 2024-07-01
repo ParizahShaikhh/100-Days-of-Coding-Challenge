@@ -1,5 +1,7 @@
+"use strict";
 // Question 3: Name Cases: Store a person’s name in a variable,
 // and then print that person’s name in lowercase, uppercase, and titlecase.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Answer:
 // variable to store a person name..
 let PersonName = "Parizah Shaikh";
@@ -24,4 +26,3 @@ function TitleCaseWord(word) {
 }
 // call Function
 console.log(TitleCaseWord("Allah"));
-export {};

@@ -1,5 +1,7 @@
+"use strict";
 // Question 54:
 // Making Flexible Object Keys: Learn how to set up a list where you can change the name of each section based on what you need at that moment, like adjusting labels based on user choices.
+Object.defineProperty(exports, "__esModule", { value: true });
 //   Function to dynamically set keys
 function setDynamicKey(obj, key, value) {
     obj[key] = value;
@@ -20,4 +22,3 @@ console.log(getDynamicKey(sections, userChoice1)); // Output: { name: 'John Doe'
 console.log(getDynamicKey(sections, userChoice1)); // Output: { theme: 'dark', language: 'en' }
 //   Output the entire object
 console.log(sections);
-export {};

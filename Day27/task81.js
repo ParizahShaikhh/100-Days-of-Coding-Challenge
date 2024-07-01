@@ -1,5 +1,7 @@
+"use strict";
 // Question 81:
 // Iterating Over Object Properties: Write a function that takes an object as an argument and logs all of its properties and values.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: You can loop through each property of an object using a for...in loop. This is useful for when you need to examine or display all the information an object holds.
 // Answer:
 // Define a function that takes an object as an argument and logs all of its properties and values
@@ -16,4 +18,3 @@ logObjectProperties({ make: 'Toyota',
     year: 2021,
     color: 'black',
 });
-export {};

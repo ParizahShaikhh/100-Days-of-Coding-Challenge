@@ -1,5 +1,7 @@
+"use strict";
 // Question 104:
 // Create a function that generates a random hexadecimal color code.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: Hexadecimal color codes are strings that start with # followed by 6 hexadecimal digits. You can generate each digit randomly and concatenate them into a full color code.
 // Answer:
 // Define a function that generates a random hexadecimal color code
@@ -10,4 +12,3 @@ function getRandomHexColor() {
     return color;
 }
 console.log(getRandomHexColor());
-export {};

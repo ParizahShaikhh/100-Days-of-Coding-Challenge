@@ -1,5 +1,7 @@
+"use strict";
 // Question 93:
 // Find the index of "Banana" in an array of fruits and replace it with "Mango".
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: To replace an item in an array, find its index using .indexOf(), then use that index to set a new value with array bracket notation.
 // Answer:
 // Define an array of fruits
@@ -10,4 +12,3 @@ let index = fruits.indexOf("Banana");
 fruits[index] = "Mango";
 // Print the updated array
 console.log(fruits);
-export {};

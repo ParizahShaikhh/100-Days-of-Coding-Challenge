@@ -1,5 +1,7 @@
+"use strict";
 // Question 113:
 // Write a function that checks if a Map contains a key for "Canada" and logs the capital if it exists.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: You can check for the presence of a key in a Map with the .has() method and retrieve its value with the .get() method.
 // Answer:
 // Create a Map to store the names of countries as keys and their capitals as values
@@ -21,5 +23,4 @@ function logCapitalOfCanada(countries) {
 }
 // Assuming countries Map from Question 112
 logCapitalOfCanada(capitals);
-export {};
 // Checks if Canada is in our Map and logs the capital if it exists.

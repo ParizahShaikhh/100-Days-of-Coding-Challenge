@@ -1,5 +1,7 @@
+"use strict";
 // Question 57:
 // Find the Average Grade: Given a list of grades, calculate the average grade.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Answer:
 // Define the functions findAverageGrade
 function findAverageGrade(grades) {
@@ -14,4 +16,3 @@ function findAverageGrade(grades) {
 }
 // Call the function and log the result
 console.log(findAverageGrade([90, 80, 88, 90, 95]));
-export {};

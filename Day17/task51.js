@@ -1,5 +1,7 @@
+"use strict";
 // Question 51: Refactoring to Arrow Functions:
 // Take a simple function that calculates the area of a rectangle and refactor it into an arrow function.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Answer:
 // Original function to calculate the area of a rectangle
 function calculateRectangleAreas(length, width) {
@@ -11,4 +13,3 @@ let calculateRectangleArea = (length, Width) => length * Width;
 let length = 5;
 let width = 7;
 console.log("Area of the rectangle:", calculateRectangleAreas(length, width));
-export {};

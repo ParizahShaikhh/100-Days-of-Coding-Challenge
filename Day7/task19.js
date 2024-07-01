@@ -1,5 +1,7 @@
+"use strict";
 // Question No.19:
 // Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Working with Exercise 18..
 // Define array of places to visit
 let placesToVisit = ["Turkey", "Dubai", "Saudi Arabia", "Azerbaijan", "Iran", "Iraq"];
@@ -27,4 +29,3 @@ console.log("\nSorted Alphabetically:", placesToVisit);
 // Sort the array in reverse alphabetical order
 placesToVisit.sort((a, b) => b.localeCompare(a));
 console.log("\nSorted Reverse Alphabetically:", placesToVisit);
-export {};

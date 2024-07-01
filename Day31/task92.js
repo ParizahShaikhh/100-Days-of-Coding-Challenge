@@ -1,5 +1,7 @@
+"use strict";
 // Question 92:
 // Write a function to remove the last element from an array and return the removed element.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Explain & TIP: The .pop() method removes the last element from an array and returns that element. This can be useful when you need to work with the removed item.
 // Answer:
 // Define the remove_last function
@@ -17,4 +19,3 @@ console.log("Removed element:", removedElement);
 let strings = ["Hello", "World", "How", "Are", "You"];
 let removedString = remove_last(strings);
 console.log("Removed string:", removedString);
-export {};
